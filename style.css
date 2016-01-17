@@ -41,6 +41,25 @@ font-family: "Arimo", arial, verdana, sans-serif;
 a{
 	text-decoration:none;
 }
+
+li{
+	list-style:none;
+}
+
+label{
+	display:inline-block;
+	width:150px;
+}
+
+input[type='text'], input[type='email'], input[type='password']{
+	width:250px;
+	height:30px;
+	padding:15px;
+}
+
+textarea{
+	width:250px;
+}
 /*---------------------------------
 	LAYOUT
 -----------------------------------*/
@@ -224,6 +243,12 @@ display:block;
 .description{
 	float:right;
 	width:85%;
+}
+
+#category_block li{
+	width:200px;
+	float:left;
+	padding:0 10px 0 0;
 }
 
 footer{
